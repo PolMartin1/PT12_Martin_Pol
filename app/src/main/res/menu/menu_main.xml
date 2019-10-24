@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.pt12_martin_pol.MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/preferences"
+        android:title="Prefs"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/ajuda"
+        android:title="Ajuda"
+        app:showAsAction="ifRoom|withText"/>
+</menu>
